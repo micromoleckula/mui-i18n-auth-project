@@ -36,9 +36,9 @@ export function LangSwitcher() {
           onChange={handleChange}
           aria-label="Platform"
         >
-          <ToggleButton value="en">🇬🇧 EN</ToggleButton>
-          <ToggleButton value="ru">🇷🇺 RU</ToggleButton>
-          <ToggleButton value="uk">🇺🇦 UA</ToggleButton>
+          <ToggleButton value="en">EN</ToggleButton>
+          <ToggleButton value="ru">RU</ToggleButton>
+          <ToggleButton value="uk">UA</ToggleButton>
         </ToggleButtonGroup>
       </FormControl>
     </Box>
