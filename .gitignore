@@ -1,0 +1,71 @@
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# --- Vite / React ---
+dist/
+vite.config.ts.timestamp*
+vite.config.js.timestamp*
+*.local
+*.cache
+*.tmp
+*.temp
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# --- Firebase ---
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*
+firebase-debug.log.*
+
+# --- VSCode / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS system files ---
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
+
+# --- Test coverage ---
+coverage/
+*.lcov
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Build artifacts ---
+*.tsbuildinfo
+*.map
+*.lock
+.cache/
+out/
+build/
+tmp/
+temp/
+
+# --- Optional: ignore Figma or design assets ---
+*.fig
+*.psd
+
+# --- Local Firebase config (DON’T PUSH API KEYS!) ---
+src/firebase/firebaseConfig.ts
+firebaseConfig.ts

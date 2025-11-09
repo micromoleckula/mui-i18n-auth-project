@@ -1,0 +1,41 @@
+{
+  "login": {
+    "title": "Войти",
+    "emailOrPhone": "Email или телефон",
+    "password": "Пароль",
+    "register": "Регистрация"
+  },
+  "register": {
+    "title": "Создать аккаунт",
+    "email": "Email",
+    "phone": "Телефон",
+    "password": "Пароль",
+    "confirm": "Подтвердите пароль",
+    "code": "Код из SMS",
+    "verify": "Подтвердить код",
+    "sendCode": "Отправить код",
+    "submit": "Зарегистрироваться",
+    "back": "Назад ко входу"
+  },
+  "validation": {
+    "required": "Поле обязательно для заполнения",
+    "invalidContact": "Введите корректный email или номер телефона",
+    "shortPassword": "Пароль должен быть не короче {{min}} символов",
+    "passwordMismatch": "Пароли не совпадают",
+    "invalidCredentials": "Неверный логин или пароль",
+    "signupFailed": "Ошибка при регистрации. Попробуйте снова.",
+    "smsSendError": "Не удалось отправить SMS-код. Проверьте номер телефона.",
+    "wrongCode": "Неверный код подтверждения"
+  },
+  "profile": {
+    "title": "Профиль",
+    "email": "Email",
+    "phone": "Телефон",
+    "providers": "Провайдеры",
+    "created": "Создан",
+    "lastLogin": "Последний вход",
+    "logout": "Выйти",
+    "notAuthorized": "Вы не авторизованы",
+    "goToLogin": "Перейти ко входу"
+  }
+}

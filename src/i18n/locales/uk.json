@@ -1,0 +1,41 @@
+{
+  "login": {
+    "title": "Увійти",
+    "emailOrPhone": "Email або телефон",
+    "password": "Пароль",
+    "register": "Реєстрація"
+  },
+  "register": {
+    "title": "Створити обліковий запис",
+    "email": "Email",
+    "phone": "Номер телефону",
+    "password": "Пароль",
+    "confirm": "Підтвердьте пароль",
+    "code": "Код з SMS",
+    "verify": "Підтвердити код",
+    "sendCode": "Надіслати код",
+    "submit": "Зареєструватися",
+    "back": "Назад до входу"
+  },
+  "validation": {
+    "required": "Це поле є обов’язковим",
+    "invalidContact": "Введіть коректний email або номер телефону",
+    "shortPassword": "Пароль має бути не коротший за {{min}} символів",
+    "passwordMismatch": "Паролі не співпадають",
+    "invalidCredentials": "Невірний логін або пароль",
+    "signupFailed": "Помилка під час реєстрації. Спробуйте ще раз.",
+    "smsSendError": "Не вдалося надіслати SMS-код. Перевірте номер телефону.",
+    "wrongCode": "Невірний код підтвердження"
+  },
+  "profile": {
+    "title": "Профіль",
+    "email": "Email",
+    "phone": "Телефон",
+    "providers": "Провайдери",
+    "created": "Створено",
+    "lastLogin": "Останній вхід",
+    "logout": "Вийти",
+    "notAuthorized": "Ви не авторизовані",
+    "goToLogin": "Перейти до входу"
+  }
+}

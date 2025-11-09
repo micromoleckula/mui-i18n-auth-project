@@ -1,0 +1,41 @@
+{
+  "login": {
+    "title": "Sign In",
+    "emailOrPhone": "Email or Phone",
+    "password": "Password",
+    "register": "Register"
+  },
+  "register": {
+    "title": "Create Account",
+    "email": "Email",
+    "phone": "Phone Number",
+    "password": "Password",
+    "confirm": "Confirm Password",
+    "code": "Verification Code",
+    "verify": "Verify Code",
+    "sendCode": "Send Code",
+    "submit": "Sign Up",
+    "back": "Back to Login"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidContact": "Enter a valid email or phone number",
+    "shortPassword": "Password must be at least {{min}} characters",
+    "passwordMismatch": "Passwords do not match",
+    "invalidCredentials": "Invalid login or password",
+    "signupFailed": "Registration failed. Please try again.",
+    "smsSendError": "Failed to send SMS code. Please check your phone number.",
+    "wrongCode": "Invalid verification code"
+  },
+  "profile": {
+    "title": "Profile",
+    "email": "Email",
+    "phone": "Phone",
+    "providers": "Providers",
+    "created": "Created at",
+    "lastLogin": "Last login",
+    "logout": "Log Out",
+    "notAuthorized": "You are not logged in",
+    "goToLogin": "Go to Login"
+  }
+}
