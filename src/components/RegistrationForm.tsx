@@ -111,6 +111,7 @@ export const RegistrationForm = () => {
               <TextField
                 label={t("register.email")}
                 value={email}
+                autoComplete="email"
                 onChange={(e) => setEmail(e.target.value)}
                 fullWidth
                 sx={{ mb: 2 }}
@@ -119,6 +120,7 @@ export const RegistrationForm = () => {
               <TextField
                 label={t("register.password")}
                 type="password"
+                autoComplete="off"
                 value={password.first}
                 onChange={(e) =>
                   setPassword({ ...password, first: e.target.value })
@@ -130,6 +132,7 @@ export const RegistrationForm = () => {
               <TextField
                 label={t("register.confirm")}
                 type="password"
+                autoComplete="off"
                 value={password.second}
                 onChange={(e) =>
                   setPassword({ ...password, second: e.target.value })
@@ -147,6 +150,7 @@ export const RegistrationForm = () => {
                   <TextField
                     label={t("register.phone")}
                     placeholder="+380XXXXXXXXX"
+                    autoComplete="tel"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     fullWidth

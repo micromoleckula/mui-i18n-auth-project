@@ -17,7 +17,6 @@ export const initRecaptcha = () => {
   if (!recaptchaVerifier) {
     recaptchaVerifier = new RecaptchaVerifier(auth, "recaptcha-container", {
       size: "invisible",
-      callback: () => console.log("reCAPTCHA resolved ✅"),
     });
   }
   return recaptchaVerifier;

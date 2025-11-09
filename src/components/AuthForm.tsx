@@ -67,6 +67,7 @@ export const AuthForm = () => {
 
           <TextField
             label={t("login.emailOrPhone")}
+            autoComplete="username"
             value={contact}
             error={!!contactError}
             helperText={contactError}
@@ -81,6 +82,7 @@ export const AuthForm = () => {
           <TextField
             label={t("login.password")}
             type="password"
+            autoComplete="current-password"
             value={password}
             error={!!passwordError}
             helperText={passwordError}
