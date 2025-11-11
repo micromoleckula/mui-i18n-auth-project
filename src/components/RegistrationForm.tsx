@@ -7,7 +7,6 @@ import {
   validatePassword,
   validatePasswordConfirm,
 } from "../utils/validation";
-
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
@@ -17,6 +16,7 @@ import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 
 import { ThemeSwitcher } from "../theme/ThemeSwitcher";
 import { LangSwitcher } from "./LangSwitcher";
+import { form } from '../styles/form'
 
 export const RegistrationForm = () => {
   const { t } = useTranslation();
@@ -83,16 +83,7 @@ export const RegistrationForm = () => {
         <Box
           component="form"
           onSubmit={handleSubmit}
-          sx={(theme) => ({
-            width: 400,
-            p: 4,
-            borderRadius: 1,
-            bgcolor: theme.palette.mode === "dark" ? "grey.900" : "grey.50",
-            boxShadow:
-              theme.palette.mode === "dark"
-                ? "0 6px 18px rgba(2,6,23,0.6)"
-                : "0 6px 18px rgba(15,15,15,0.08)",
-          })}
+          sx={form}
         >
           <h2>{t("register.title")}</h2>
 

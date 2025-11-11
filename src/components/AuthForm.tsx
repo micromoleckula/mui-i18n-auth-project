@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../auth/useAuth";
 import { useTranslation } from "react-i18next";
 import { validateEmailOrPhone, validatePassword } from "../utils/validation";
-
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
@@ -11,6 +10,7 @@ import Stack from "@mui/material/Stack";
 
 import { ThemeSwitcher } from "../theme/ThemeSwitcher";
 import { LangSwitcher } from "./LangSwitcher";
+import { form } from '../styles/form'
 
 export const AuthForm = () => {
   const { t } = useTranslation();
@@ -51,17 +51,7 @@ export const AuthForm = () => {
         <Box
           component="form"
           onSubmit={handleSubmit}
-          sx={(theme) => ({
-            width: 400,
-            p: 4,
-            borderRadius: 1,
-            bgcolor: theme.palette.mode === "dark" ? "grey.900" : "grey.50",
-            color: "text.primary",
-            boxShadow:
-              theme.palette.mode === "dark"
-                ? "0 6px 18px rgba(2,6,23,0.6)"
-                : "0 6px 18px rgba(15,15,15,0.08)",
-          })}
+          sx={form}
         >
           <h2>{t("login.title")}</h2>
 
